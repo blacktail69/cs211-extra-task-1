@@ -3,3 +3,5 @@
 double seconds_difference(double time_1, double time_2);
 ///Returns the number of hours later that a time in secondstime_2 is than a time in seconds time_1.
 double hours_difference(double time_1, double time_2);
+///Returns the total number of hours in the specified number of hours, minutes, and seconds.
+double to_float_hours(int hours, int minutes, int seconds);
